@@ -17,7 +17,6 @@ while proximo < len(lista):
 l_m = int(input("Digite em qual vetor quer adicionar: "))
 numeros = int(input("Digite o número a ser adicionado ao meio da lista: "))
 lista.insert(l_m, numeros)
-        
 proximo = 0
 while proximo < len(lista):
     
